@@ -9,5 +9,5 @@ var feedback = function(res) {
 
 new Imgur({
     clientid: '862cea791b8f3f2',
-    callback: callback
+    callback: feedback
 });
