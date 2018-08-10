@@ -8,6 +8,6 @@ var feedback = function(res) {
 };
 
 new Imgur({
-    clientid: '862cea791b8f3f2',
+    clientid: '974baf0b9aa3eac',
     callback: feedback
 });
