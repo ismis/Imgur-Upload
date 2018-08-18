@@ -1,11 +1,13 @@
+---
+#
+---
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <title>Imgur-Upload</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./css/style.css" rel="stylesheet" media="screen">
-    <link href="./css/mobile-style.css" rel="stylesheet" media="screen">
+    <style>{% include style.css %}{% include mobile-style.css %}</style>
 </head>
 <body>
     <div class="title">
@@ -15,7 +17,7 @@
     <div class="dropzone">
         <div class="info"></div>
     </div>
-    <script type="text/javascript" src="./js/imgur.js"></script>
-    <script type="text/javascript" src="./js/upload.js"></script>
+    <script>{% include imgur.js %}</script>
+    <script>{% include upload.js %}</script>
 </body>
 </html>
