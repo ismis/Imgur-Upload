@@ -1,8 +1,8 @@
 ## Usage
-If you want to use your own clientID , you can change it [here](/blob/master/js/upload.js#L11) :
+If you want to use your own clientID , you can change it [here](/blob/master/_includes/upload.js#L11) :
 ```
 new Imgur({ 
-    clientid: '4409588f10776f7', //You can change this ClientID
+    clientid: '974baf0b9aa3eac', //You can change this ClientID
     callback: feedback 
 });
 ```
