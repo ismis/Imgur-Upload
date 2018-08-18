@@ -93,7 +93,7 @@
 
             div = this.createEls('div', {className: 'loading-modal'});
             table = this.createEls('table', {className: 'loading-table'});
-            img = this.createEls('img', {className: 'loading-image', src: './css/loading-spin.svg'});
+            img = this.createEls('img', {className: 'loading-image', src: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiBmaWxsPSIjMzAzNzQ2Ij4KICAgIDx0aXRsZT5Mb2FkaW5nPC90aXRsZT4KICAgIDxwYXRoIG9wYWNpdHk9Ii4yNSIgZD0iTTE2IDAgQTE2IDE2IDAgMCAwIDE2IDMyIEExNiAxNiAwIDAgMCAxNiAwIE0xNiA0IEExMiAxMiAwIDAgMSAxNiAyOCBBMTIgMTIgMCAwIDEgMTYgNCIgLz4KICAgIDxwYXRoIGQ9Ik0xNiAwIEExNiAxNiAwIDAgMSAzMiAxNiBMMjggMTYgQTEyIDEyIDAgMCAwIDE2IDR6Ij4KICAgICAgICA8YW5pbWF0ZVRyYW5zZm9ybSBhdHRyaWJ1dGVOYW1lPSJ0cmFuc2Zvcm0iIHR5cGU9InJvdGF0ZSIgZnJvbT0iMCAxNiAxNiIgdG89IjM2MCAxNiAxNiIgZHVyPSIwLjhzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgLz4KICAgIDwvcGF0aD4KPC9zdmc+'});
 
             div.appendChild(table);
             table.appendChild(img);
